@@ -1,0 +1,4 @@
+{
+  "rewrites": [{ "source": "/sign-up", "destination": "/" }],
+  "redirects": [{ "source": "/sign-up", "destination": "/", "statusCode": 200 }]
+}

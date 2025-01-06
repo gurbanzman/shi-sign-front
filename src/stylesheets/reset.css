@@ -1,0 +1,60 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+   font-family: Inter;
+}
+
+*>img,
+*>video {
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+}
+
+button,
+input {
+   background: none;
+   border: none;
+   outline: none;
+}
+
+button,
+input[type=”checkbox”] {
+   cursor: pointer;
+}
+
+.flex-center {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.flex-between {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.flex-wrap {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px 20px;
+}
+body{
+   background: #201C2D;
+}
+.input--half{
+   width: 49%;
+}
+.half{
+   width: 50%;
+}
+.full{
+   width: 100%;
+}
+.section{
+   margin-top: 60px;
+}
